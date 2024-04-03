@@ -74,7 +74,12 @@ i.fa-twitter.p-1 {
     color: white;
     background: #1DA1F2;
 }
-
+i.fa.fa-envelope.p-1 {
+    color:rgb(248, 247, 250);
+    background: #0077b5;
+    
+    background-size: 300% 300%;
+}
 i.fa-instagram.p-1 {
     color: white;
     background: #000;
