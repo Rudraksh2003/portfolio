@@ -77,16 +77,16 @@
                     <h4 style="font-weight: bold;">Rudraksh Laddha</h4>
                     <h9 style="font-weight: lighter;">DevOps & Cloud Engineer</h9>
                     <div class="d-flex justify-content-around w-50 mx-auto pt-3">
-                        <a href="https://twitter.com/Rudraksh_Laddha">
+                        <a href="https://twitter.com/Rudraksh_Laddha" class="link">
                             <i class="fa fa-twitter p-1 rounded"></i>
                         </a>
-                        <a href="https://www.instagram.com/shubham_1995_/">
+                        <a href="https://www.instagram.com/shubham_1995_/" class="link">
                             <i class="fa fa-instagram p-1 rounded"></i>
                         </a>
-                        <a href=" https://www.linkedin.com/in/rudraksh-laddha2/">
+                        <a href=" https://www.linkedin.com/in/rudraksh-laddha2/" class="link">
                             <i class="fa fa-linkedin p-1 rounded"></i>
                         </a>
-                        <a href=" https://github.com/Rudraksh2003">
+                        <a href=" https://github.com/Rudraksh2003" class="link">
                             <i class="fa fa-github p-1 rounded"></i>
                         </a>
                     </div>
@@ -118,6 +118,15 @@
     </div>
 
     </section>
+        <script>
+        // JavaScript to open links in new tab
+        document.querySelectorAll('.link').forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                window.open(this.getAttribute('href'), '_blank');
+            });
+        });
+    </script>
     <script src="./global.js" defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
