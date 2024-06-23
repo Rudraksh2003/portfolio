@@ -197,3 +197,58 @@ i.fa.btn-outline-light {
     border: 1px solid #FC1111;
     border-radius: 5px;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.proj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.project {
+    width: 90%;
+    max-width: 800px; /* Increase max-width for larger screens */
+    margin: 20px 0;
+    text-align: center;
+    border: 1px solid #FC1111;
+    border-radius: 15px;
+    background-color: #000000;
+    padding: 20px; /* Increase padding for larger screens */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.tr {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(95, 78, 78);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.tr:hover {
+    background-color: #9eecff;
+    color: #000000;
+}
+.tr.black {
+    background-color: black;
+    color: #ffffff;
+}
+@media (min-width: 768px) {
+    .project {
+        padding: 20px 40px; /* Increase padding for larger screens */
+    }
+}
